@@ -3,16 +3,21 @@ isPage: true
 draft: false
 title: Contact
 description: ''
+image: null
+hero: null
 blocks:
   - type: paragraph
-    title: Get In Touch
-    text: We understand that every request comes with specific needs, this is why we would love to hear about your project, we are always available to brainstorm about your video production needs. Let’s work together!
+    title: Venez prendre un café
+    text: ☕️
     ctas:
       - text: info@bluemaxmedia.com
         url: mailto:info@bluemaxmedia.com
         lang: ''
+        blank: false
       - text: +33 06 88 86 76 42
         url: tel:+330688867642
+        lang: ''
+        blank: false
     grid: large
   - type: informations
     heading:
@@ -24,5 +29,8 @@ blocks:
       - title: Briançon
         text: 73 Route de Grenoble 05100 Briançon France
         icon: ''
+        image: null
+        cta: null
+    background: false
 slug: ''
 ---
