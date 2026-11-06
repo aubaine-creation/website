@@ -1,0 +1,50 @@
+baseURL = 'https://aubaine-creation.fr/'
+languageCode = 'fr-fr'
+title = 'Aubaine Création'
+
+[module]
+  # Dossiers du projet (réglages standard d'Hugo)
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+  [[module.mounts]]
+    source = 'data'
+    target = 'data'
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+  [[module.mounts]]
+    source = 'i18n'
+    target = 'i18n'
+  [[module.mounts]]
+    source = 'archetypes'
+    target = 'archetypes'
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  # Les médias ajoutés dans Sveltia : publiés tels quels (vidéos)
+  # et aussi utilisables pour l'optimisation des images
+  [[module.mounts]]
+    source = 'static/images/uploads'
+    target = 'assets/images/uploads'
+  # Sveltia écrit parfois « /static/images/uploads/… » : on accepte aussi ce chemin
+  [[module.mounts]]
+    source = 'static/images/uploads'
+    target = 'assets/static/images/uploads'
+  # Le thème passe en premier : ses réglages sont prioritaires
+  [[module.imports]]
+    path = 'mon-site'
+  [[module.imports]]
+    path = 'github.com/hugolify/hugolify-admin'
+
+# Interface d'édition : http://localhost:1313/admin/
+[params.admin]
+  repo = 'audreyhaman/aubaine-creation'
+  # Médias enregistrés dans le projet (et non sur le compte Uploadcare de l'auteur du thème)
+  [params.admin.media]
+    cloud = false
+    media_folder = "/static/images/uploads"
+    public_folder = "/images/uploads"

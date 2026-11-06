@@ -1,0 +1,38 @@
+admin:
+  collections:
+    projects_clients:
+      label: 
+        one: Client
+        other: Clients
+    projects_athletes:
+      label: 
+        one: Athlete
+        other: Athletes
+  fields:
+    images:
+      label: 
+        one: Image
+        other: Images (BTS)
+    photos:
+      label: 
+        one: Photo
+        other: Photos
+    projects_clients:
+      label: 
+        one: Client
+        other: Clients
+    projects_athletes:
+      label: 
+        one: Athlete
+        other: Athletes
+      
+projects:
+  behind_scene: Behind the scene
+projects_clients:
+  title: 
+    one: Client
+    other: Clients
+projects_athletes:
+  title: 
+    one: Athlete
+    other: Athletes

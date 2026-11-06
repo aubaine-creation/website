@@ -1,0 +1,17 @@
+.btn:not(.btn-filter)
+    --bs-btn-hover-color: #{$link-hover-color}
+    &::after
+        @include icon("arrow-right")
+        font-size: 1.4rem
+        margin-left: .5rem
+        vertical-align: -0.35rem
+    @media (hover: hover) and (pointer: fine)
+        &:hover
+            &::after
+                transform: translateX(.3rem)
+    @media (prefers-reduced-motion: no-preference)
+        &::after
+            transition: transform $transition-duration $transition-effect
+
+.btn
+    text-transform: uppercase

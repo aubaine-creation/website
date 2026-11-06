@@ -1,0 +1,16 @@
+links:
+  - title: Instagram
+    url: ''
+    blank: true
+    is_highlighted: false
+    links: []
+  - title: LinkedIN
+    url: ''
+    blank: true
+    is_highlighted: false
+    links: []
+  - title: Pinterest
+    url: ''
+    blank: false
+    is_highlighted: false
+    links: []

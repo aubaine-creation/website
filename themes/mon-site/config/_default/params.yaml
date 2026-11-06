@@ -1,0 +1,232 @@
+_merge: deep
+
+# Change menu to modal opening
+header:
+  layout: modal
+  modal:
+    size: fullscreen
+
+# Image
+logo:
+  header: "/assets/images/logo-header.svg"
+hero:
+  cover: '1600x750'
+image:
+  desktop: "1296x"
+  quality: lighter
+  video:
+    landscape:
+      desktop: "1296x729"
+      mobile: "375x211"
+    portrait:
+      desktop: "405x720"
+      mobile: "406x721"
+projects:
+  thumbnail:
+    desktop: "416x312"
+    mobile: "315x236"
+  images:
+    desktop: "x402"
+    mobile: "x201"
+  photos:
+    desktop: "x730"
+    mobile: "x211"
+blocks:
+  editorial:
+    desktop: "1200x"
+  informations:
+    image:
+      ratio: .75
+  figure:
+    full:
+      ratio: .375
+
+# JS
+animation: true
+carousel: true
+map: false
+bootstrap:
+  modal: true
+# vimeo: true
+youtube: true
+
+# Admin
+admin:
+
+  # CMS
+  cms: sveltiacms
+  repo: sebousan/bluemaxmedia
+  # version: 0.206.1
+
+  # Auth
+  auth:
+    netlify_identity: false
+
+  # CDN
+  media:
+    media_folder: false
+    public_folder: false
+    cloud:
+      name: uploadcare
+      public_key: 0a94e9f2f59315581638
+      tabs: "['file', 'url', 'gdrive']"
+    providers: false
+  
+  # Lang
+  i18n:
+    default_locale: fr
+
+  # Collections
+  collections:
+
+    config:
+      files:
+        - nav-primary
+        - nav-social
+        - nav-legal
+        - footer
+        - seo
+
+    indexes:
+      enable: false
+      fields:
+        - title_page
+        - description
+        - featured_image
+        - hero
+        - blocks
+
+    pages:
+      fields:
+        - is_page
+        - draft
+        - title_page
+        - description
+        - featured_image
+        - hero
+        - body
+        - blocks
+      nested:
+        depth: 1
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
+
+    projects:
+      fields:
+        - is_not_index
+        - draft
+        - date
+        - weight
+        - title_page
+        - description
+        - relation:
+            collection: projects_types
+            multiple: true
+        - relation:
+            collection: projects_tags
+            multiple: true
+        - relation:
+            collection: projects_clients
+            multiple: true
+        - relation:
+            collection: projects_athletes
+            multiple: true
+        - featured_image
+        - hover_video
+        - video_embed
+        - video_embed_2
+        - video_embed_3
+        - video_embed_4
+        - video_embed_5
+        - photos
+        - datas
+        - images
+        - body
+      summary: "{{year}} - {{title | upper}} - {{projects_clients.0}} {{projects_clients.1}}"
+      
+    projects_clients:
+      enable: true
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
+
+    projects_tags:
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
+
+    projects_types:
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
+
+    projects_athletes:
+      enable: true
+      fields:
+        - draft
+        - title_page
+        - description
+        - featured_image
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
+    
+  # blocks
+  blocks:
+
+    enable:
+      - editorial
+      - datas 
+      - informations 
+      - figure
+      - logos
+      - paragraph
+      - selected
+      - video
+    
+    editorial:
+      notes: false
+      fields:
+        - direction
+        - title
+        - text_markdown
+        - ctas
+        - media
+        - video_embed
+    
+    paragraph:
+      notes: false
+      fields:
+        - title
+        - text_markdown
+        - ctas
+        - grid
+    
+    video:
+      fields:
+        - heading
+        - video_embed
+        - grid
+
+  # fields
+  fields:
+    hero:
+      fields:
+        - title
+        - ctas
+        - image
+        - video_embed
+    video_platform:
+      options:
+        - vimeo
+        - youtube
+    
+  # Remove shortcodes
+  shortcodes:
+    enable: false

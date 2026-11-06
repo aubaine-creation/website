@@ -1,0 +1,23 @@
+@mixin surtitle
+    font-size: $small-font-size
+    font-weight: 800
+    margin-bottom: .25rem
+    text-transform: uppercase
+
+@mixin title
+    @include font-size($h5-font-size)
+    font-family: $headings-font-family
+    font-weight: $headings-font-weight
+    line-height: $headings-line-height
+    text-transform: uppercase
+
+@mixin badge
+    --bs-badge-color: #3d3d3d
+    background-color: #ebebeb
+    letter-spacing: .05em
+    text-transform: uppercase
+    @media (prefers-reduced-motion: no-preference)
+        transition: all .3s ease
+    @media (hover: hover) and (pointer: fine)
+        &:hover
+            background-color: #d7d7d7

@@ -1,0 +1,65 @@
+.featured-image,
+.featured-video
+    @include media-breakpoint-down(md)
+        margin-left: - $gutter-mobile
+        margin-right: - $gutter-mobile
+    @include media-breakpoint-up(md)
+        border-radius: $border-radius
+        overflow: hidden
+
+@keyframes featured-video-loading
+    0%, 100%
+        background-color: $light
+    50%
+        background-color: transparent
+
+.featured-video
+    --video-ratio: 16/9
+    aspect-ratio: var(--video-ratio)
+    background-color: $light
+    position: relative
+    @media (prefers-reduced-motion: no-preference)
+        animation: featured-video-loading 1.5s ease-in-out infinite
+        &:has(iframe.is-ready)
+            animation: none
+    .poster
+        background-color: black
+        cursor: pointer
+        inset: 0
+        position: absolute
+        z-index: 1
+        @media (prefers-reduced-motion: no-preference)
+            transition: opacity $global-transition
+        img
+            height: 100%
+            object-fit: cover
+            width: 100%
+            @media (prefers-reduced-motion: no-preference)
+                transition: opacity $global-transition
+        &::after
+            @include icon("play-circle-fill")
+            color: white
+            font-size: 3rem
+            left: 50%
+            position: absolute
+            top: 50%
+            transform: translate(-50%, -50%)
+        @media (hover: hover) and (pointer: fine)
+            &:hover
+                img
+                    opacity: .7
+    iframe
+        aspect-ratio: var(--video-ratio)
+        height: auto
+        display: block
+        width: 100%
+    
+    &--shorts
+        --video-ratio: 9/16
+        // @include media-breakpoint-up(md)
+        //     max-width: 25rem
+
+    &.is-playing
+        .poster
+            opacity: 0
+            pointer-events: none

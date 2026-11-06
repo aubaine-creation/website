@@ -1,0 +1,27 @@
+{{- with .Params.photos }}
+<section class="photos">
+  {{- $items := slice }}
+  {{- range . }}
+    {{- $item := . | merge (dict 
+      "desktop" site.Params.projects.photos.desktop 
+      "mobile" site.Params.projects.photos.mobile
+      ) }}
+    {{- $items = $items | append $item }}
+  {{- end }}
+
+  {{- $carouselParams := dict
+    "autoWidth" true
+    "perPage" 1 
+    "perMove" 1 
+    "pagination" false 
+    "gap" 24
+    "breakpoints" (dict 
+      "640" (dict "gap" 0)
+    ) }}
+  {{- $args := (dict
+          "context" (dict "items" $items "carouselParams" $carouselParams) 
+          "partial" "commons/figure.html" 
+    ) }}
+  {{ partial "commons/carousel.html" $args }}
+</section>
+{{- end }}

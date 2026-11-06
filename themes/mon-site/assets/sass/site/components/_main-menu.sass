@@ -1,0 +1,22 @@
+.main-menu
+    .nav
+        --bs-nav-link-font-weight: 800
+        text-transform: uppercase
+    .nav-link
+        text-decoration: none
+        @media (prefers-reduced-motion: no-preference)
+            transition: all $global-transition
+
+    @include media-breakpoint-down($navbar-expand)
+        .modal-dialog
+            display: flex
+            padding: 1rem
+        .modal-content
+            border-radius: .625rem
+        .content
+            align-items: center
+            display: flex
+            flex-direction: column
+            justify-content: center
+        .nav
+            --bs-nav-link-font-size: clamp(2rem, 7vw, 4rem)

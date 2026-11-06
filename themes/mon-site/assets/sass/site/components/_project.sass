@@ -1,0 +1,16 @@
+.project
+    .metas
+        p
+            @include surtitle
+    .name
+        @include title
+    a
+        @media (prefers-reduced-motion: no-preference)
+            transition: color $global-transition
+        @media (hover: hover) and (pointer: fine)
+            &:hover
+                color: var(--bs-link-hover-color)
+        .name
+            text-decoration: none
+    .media
+        border-radius: $border-radius

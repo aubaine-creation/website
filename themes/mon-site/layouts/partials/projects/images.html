@@ -1,0 +1,28 @@
+{{- with .Params.images }}
+<section class="images">
+  <h2>{{ i18n "projects.behind_scene" }}</h2>
+  {{- $items := slice }}
+  {{- range . }}
+    {{- $item := . | merge (dict 
+      "desktop" site.Params.projects.images.desktop 
+      "mobile" site.Params.projects.images.mobile
+      ) }}
+    {{- $items = $items | append $item }}
+  {{- end }}
+
+  {{- $carouselParams := dict
+    "autoWidth" true
+    "perPage" 2 
+    "perMove" 1 
+    "pagination" false 
+    "gap" 24 
+    "breakpoints" (dict 
+      "640" (dict "perPage" 1 "height" "12.5rem")
+    ) }}
+  {{- $args := (dict
+          "context" (dict "items" $items "carouselParams" $carouselParams) 
+          "partial" "commons/figure.html" 
+    ) }}
+  {{ partial "commons/carousel.html" $args }}
+</section>
+{{- end }}

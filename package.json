@@ -1,0 +1,23 @@
+{
+  "name": "aubaine-creation",
+  "version": "1.0.0",
+  "description": "Site Aubaine Création",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --gc --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "splitting": "^1.1.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.6.2",
+    "cssnano": "^5.1.15",
+    "postcss": "^8.5.32",
+    "postcss-cli": "^10.1.0"
+  }
+}

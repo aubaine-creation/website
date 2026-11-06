@@ -1,0 +1,84 @@
+.block-editorial
+    .container
+        display: flex
+        flex-direction: column-reverse
+    .content
+        position: relative
+        z-index: 1
+    .media
+        margin-bottom: -1rem
+        margin-left: - $gutter-mobile
+        margin-right: - $gutter-mobile
+    h2, p
+        text-wrap: balance
+    p:last-child
+        margin-bottom: 0
+    .text:not(:last-child)
+        margin-bottom: $grid-gutter-width
+    figure
+        display: block
+        margin-bottom: 0
+        @include media-breakpoint-up(md)
+            border-radius: $border-radius
+            overflow: hidden
+    img,
+    video
+        display: block
+        height: auto
+        width: 100%
+    .cta
+        align-items: flex-start
+
+    @include media-breakpoint-up(md)
+        .container
+            align-items: center
+            flex-direction: row
+        &-rtl
+            .container
+                flex-direction: row-reverse
+        .media
+            margin-bottom: 0
+            margin-left: -6rem
+            margin-right: -6rem
+            width: calc(60% + 12rem)
+        .content
+            width: 40%
+        figure,
+        picture,
+        img,
+        video
+            height: 100%
+            object-fit: cover
+        & + &
+            padding-top: 0
+            @include margin-top(- $global-spacing)
+    
+    @include media-breakpoint-only(md)
+        .media
+            aspect-ratio: 1.5
+            width: calc(50% + 12rem)
+        .content
+            width: 50%
+
+    @include media-breakpoint-up(xxl)
+        .media
+            margin-left: -9rem
+            margin-right: -9rem
+            width: calc(60% + 18rem)
+
+    // Vidéo YouTube / Vimeo : à côté du texte, sans passer dessous
+    @include media-breakpoint-up(md)
+        &:has(.media--embed) .container
+            gap: $grid-gutter-width
+        // pas de chevauchement entre deux blocs quand l'un contient une vidéo
+        &:has(.media--embed) + &,
+        & + &:has(.media--embed)
+            margin-top: 0
+        .media--embed
+            margin-left: 0
+            margin-right: 0
+            width: calc(60% - #{$grid-gutter-width})
+    @include media-breakpoint-only(md)
+        .media--embed
+            aspect-ratio: auto
+            width: calc(50% - #{$grid-gutter-width})

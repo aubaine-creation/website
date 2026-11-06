@@ -1,0 +1,3 @@
+[submodule "themes/bluemaxmedia"]
+	path = themes/bluemaxmedia
+	url = https://github.com/sebousan/bluemaxmedia.git

@@ -1,0 +1,17 @@
+defaultContentLanguage: en
+build:
+  buildStats:
+    disableClasses: false
+    disableIDs: true
+    disableTags: false
+    enable: true
+enableRobotsTXT: true
+imaging:
+  quality: 75
+markup:
+  tableOfContents:
+    ordered: true
+pagination:
+  pagerSize: 24
+removePathAccents: true
+timeout: 100000
