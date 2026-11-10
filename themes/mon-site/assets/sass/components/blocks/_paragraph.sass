@@ -1,13 +1,46 @@
 .block-paragraph
+  .container
+    @include media-breakpoint-up(md)
+      align-items: center
+      display: grid
+      gap: $grid-gutter-width
+      grid-template-columns: 1fr 1fr
+  &.layout-stacked
     .container
-        @include media-breakpoint-up(md)
-            align-items: center
-            display: grid
-            gap: $grid-gutter-width
-            grid-template-columns: 1fr 1fr
+      @include media-breakpoint-up(md)
+        grid-template-columns: 1fr
     .cta
-        align-items: flex-start
-        display: flex
-        flex-direction: column
-        gap: $spacer
-        grid-column-start: 2
+      grid-column: 1 / -1
+  .cta
+    align-items: flex-start
+    display: flex
+    flex-direction: column
+    gap: $spacer
+    grid-column-start: 2
+
+  // Alignement des items (icône + titre + texte) en colonnes
+  .items
+    display: grid
+    gap: 2rem
+    grid-template-columns: 1fr
+
+    @include media-breakpoint-up(md)
+      grid-column: 1 / -1
+
+      &.columns-2
+        grid-template-columns: repeat(2, 1fr)
+      &.columns-3
+        grid-template-columns: repeat(3, 1fr)
+      &.columns-4
+        grid-template-columns: repeat(4, 1fr)
+
+  .item
+    .icon
+      margin-bottom: 0.75rem
+    h3
+      font-size: 1.1rem
+      font-weight: bold
+      margin-bottom: 0.5rem
+    .content, p
+      font-size: 0.95rem
+      line-height: 1.5

@@ -2,6 +2,21 @@ baseURL = 'https://aubaine-creation.fr/'
 languageCode = 'fr-fr'
 title = 'Aubaine Création'
 
+[permalinks.page]
+  projects = '/works/:year-:slug'
+[permalinks.section]
+  projects = '/works/'
+[permalinks.term]
+  projects_athletes = '/works/athletes/:slug'
+  projects_clients = '/works/clients/:slug'
+  projects_tags = '/works/tags/:slug'
+  projects_types = '/works/:slug'
+[permalinks.taxonomy]
+  projects_athletes = '/works/athletes/'
+  projects_clients = '/works/clients/'
+  projects_tags = '/works/tags/'
+  projects_types = '/works/types/'
+
 [module]
   # Dossiers du projet (réglages standard d'Hugo)
   [[module.mounts]]

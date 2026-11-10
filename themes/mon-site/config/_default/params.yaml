@@ -189,6 +189,7 @@ admin:
       - paragraph
       - selected
       - video
+      - text
     
     editorial:
       notes: false
@@ -200,13 +201,53 @@ admin:
         - media
         - video_embed
     
+    informations:
+      fields:
+        - select:
+            name: layout
+            options:
+              - inline
+              - stacked
+            default: inline
+        - heading
+        - column
+        - items:
+            name: informations
+            fields:
+              - icon
+              - image_simple
+              - title
+              - text
+              - cta
+        - background
+
     paragraph:
       notes: false
       fields:
         - title
         - text_markdown
+        - select:
+            name: layout
+            options:
+              - inline
+              - stacked
+            default: inline
+        - column
+        - items:
+            name: paragraph
+            fields:
+              - icons
+              - title
+              - text_markdown
         - ctas
         - grid
+
+    items:
+      notes: false
+      fields:
+        - title
+        - text_markdown
+        - ctas   
     
     video:
       fields:
@@ -226,7 +267,11 @@ admin:
       options:
         - vimeo
         - youtube
-    
+    items:
+      fields:
+        - icons
+        - title
+        - text_markdown
   # Remove shortcodes
   shortcodes:
     enable: false

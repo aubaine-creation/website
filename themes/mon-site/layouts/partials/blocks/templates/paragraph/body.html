@@ -1,0 +1,35 @@
+<div class="container">
+  {{ if .title }}
+    <h2>{{ .title }}</h2>
+  {{ end }}
+
+  {{ with .text_markdown | default .text }}
+    <div class="text">
+      {{ . | markdownify }}
+    </div>
+  {{ end }}
+
+  {{ if .items }}
+    <div class="items columns-{{ .column | default "4" }}">
+      {{ range .items }}
+        <div class="item">
+          {{ if .icons }}
+            <div class="icon">
+              {{ partial "commons/icon.html" (dict "icon" .icons) }}
+            </div>
+          {{ end }}
+          
+          {{ if .title }}
+            <h3>{{ .title }}</h3>
+          {{ end }}
+
+          {{ with .text_markdown | default .text }}
+            <div class="content">
+              {{ . | markdownify }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

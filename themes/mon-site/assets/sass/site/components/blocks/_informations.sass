@@ -1,4 +1,10 @@
 .block-informations
+    &.layout-inline > .heading > .container
+        @include media-breakpoint-up(md)
+            align-items: center
+            display: grid
+            gap: $grid-gutter-width
+            grid-template-columns: 1fr 1fr
     .items
         justify-content: flex-start
     .item

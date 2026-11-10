@@ -1,0 +1,6 @@
+admin:
+  fields:
+    layout:
+      options:
+        inline: Côte à côte
+        stacked: Empilé
