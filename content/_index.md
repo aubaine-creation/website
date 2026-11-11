@@ -71,6 +71,6 @@ blocks:
         url: /contact/
         lang: ''
         blank: false
-    media: /images/uploads/destinycalling.mp4
+    media: /website/images/uploads/destinycalling.mp4
     video_embed: null
 ---
