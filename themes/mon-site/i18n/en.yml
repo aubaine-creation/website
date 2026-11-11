@@ -4,10 +4,6 @@ admin:
       label: 
         one: Client
         other: Clients
-    projects_athletes:
-      label: 
-        one: Athlete
-        other: Athletes
   fields:
     images:
       label: 
@@ -21,18 +17,10 @@ admin:
       label: 
         one: Client
         other: Clients
-    projects_athletes:
-      label: 
-        one: Athlete
-        other: Athletes
       
 projects:
-  behind_scene: Behind the scene
+  portfolio: Portfolio
 projects_clients:
   title: 
     one: Client
     other: Clients
-projects_athletes:
-  title: 
-    one: Athlete
-    other: Athletes

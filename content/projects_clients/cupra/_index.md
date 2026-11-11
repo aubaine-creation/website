@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: Cupra
+title: Alexis Mabille
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: F1
+title: Newsletter
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

@@ -11,7 +11,6 @@ projects_tags:
   - Photo
   - advertisement
   - Running
-  - sport
 projects_clients:
   - salomon
 image:

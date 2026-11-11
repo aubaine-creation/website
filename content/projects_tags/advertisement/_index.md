@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: Advertisement
+title: Logo
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

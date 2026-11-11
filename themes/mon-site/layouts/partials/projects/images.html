@@ -1,6 +1,6 @@
 {{- with .Params.images }}
 <section class="images">
-  <h2>{{ i18n "projects.behind_scene" }}</h2>
+  <h2>{{ i18n "projects.portfolio" }}</h2>
   {{- $items := slice }}
   {{- range . }}
     {{- $item := . | merge (dict 

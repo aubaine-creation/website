@@ -9,10 +9,8 @@ projects_types:
 projects_tags:
   - clip
   - advertisement
-  - sport
 projects_clients:
   - SATA Group
-  - sata-group
 image:
   src: https://ucarecdn.com/d8ec8372-f7c0-4ea3-9d7b-6a68f6efae11/THUMBNAIL_AEON.jpg
   alt: ''

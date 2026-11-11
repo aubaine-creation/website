@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: Airbnb
+title: Franck Gravure
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

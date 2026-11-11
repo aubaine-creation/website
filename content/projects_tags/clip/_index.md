@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: Clip
+title: Print
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

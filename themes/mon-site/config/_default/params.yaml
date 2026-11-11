@@ -130,9 +130,6 @@ admin:
         - relation:
             collection: projects_clients
             multiple: true
-        - relation:
-            collection: projects_athletes
-            multiple: true
         - featured_image
         - hover_video
         - video_embed
@@ -165,18 +162,6 @@ admin:
           filename: _index.md
           hideDirs: all
 
-    projects_athletes:
-      enable: true
-      fields:
-        - draft
-        - title_page
-        - description
-        - featured_image
-      view:
-        node:
-          filename: _index.md
-          hideDirs: all
-    
   # blocks
   blocks:
 

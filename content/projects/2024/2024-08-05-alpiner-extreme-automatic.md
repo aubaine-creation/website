@@ -10,11 +10,8 @@ projects_tags:
   - clip
   - advertisement
   - Skateboard
-  - sport
 projects_clients:
   - Alpina
-projects_athletes:
-  - Greg Ruhoff
 image:
   src: https://ucarecdn.com/2926da5c-d899-4aa1-bdbe-c9192858e257/THUMBNAIL_ALPINA_ALPINER_EXTREME_AUTOMATIC.jpg
   alt: ''

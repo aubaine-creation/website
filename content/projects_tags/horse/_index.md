@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: Horse
+title: Shooting
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

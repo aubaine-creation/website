@@ -8,14 +8,7 @@ projects_types:
   - films
 projects_tags:
   - freestyle
-  - sport
-  - ski
-projects_clients:
-  - faction
-  - red-bull
-projects_athletes:
-  - alex-hall
-  - sam-anthamatten
+projects_clients: []
 image:
   src: https://ucarecdn.com/92902153-1625-4e75-beaa-c4353ae6a855/THUMBNAIL_FACTION_ABSTRACT.jpg
   alt: ''

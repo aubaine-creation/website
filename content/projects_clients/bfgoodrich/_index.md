@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: BFGoodrich
+title: Daily Cat
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

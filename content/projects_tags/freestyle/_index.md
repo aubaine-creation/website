@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: Freestyle
+title: SEO
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

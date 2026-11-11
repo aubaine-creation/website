@@ -24,13 +24,19 @@
     .content
         display: grid
         gap: $grid-gutter-width
-        &:has(.featured-video--shorts)
-            @include media-breakpoint-up(md)
-                grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+        @include media-breakpoint-up(md)
+            grid-template-columns: repeat(2, minmax(0, 1fr))
     
     .content-body
         grid-column: 1 / -1
         max-width: 55rem
+
+    .photos,
+    .images
+        grid-column: 1 / -1
+
+    .images
+        margin-top: $spacer
 
     .featured-video + .photos
         grid-column: 1 / -1

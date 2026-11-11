@@ -4,12 +4,10 @@ page:
 section:
   projects: /works/
 term:
-  projects_athletes: /works/athletes/:slug
   projects_clients: /works/clients/:slug
   projects_tags: /works/tags/:slug
   projects_types: /works/:slug
 taxonomy:
-  projects_athletes: /works/athletes/
   projects_clients: /works/clients/
   projects_tags: /works/tags/
   projects_types: /works/types/

@@ -1,5 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: Jingle
+title: Teaser
+description: ''
+image: null
+hero: null
+blocks: []
+slug: ''
 ---

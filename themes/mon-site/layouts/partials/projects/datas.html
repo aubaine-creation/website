@@ -3,16 +3,6 @@
 {{- with .Params.datas -}}
   {{- $datas = $datas | append . }}
 {{- end }}
-{{- with .GetTerms "projects_athletes" }}
-  {{- $links := slice }}
-  {{- range . }}
-    {{- $links = $links | append (printf `<a href="%s">%s</a>` .Permalink .Title) }}
-  {{- end }}
-  {{- $text := delimit $links ", " }}
-  {{- $talents := dict "title" (i18n "projects_athletes.title" (len .)) "text" $text }}
-  {{- $datas = $datas | append $talents }}
-{{- end }}
-
 {{- with $datas }}
   <div class="datas">
     <ul>
