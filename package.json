@@ -4,6 +4,7 @@
   "description": "Site Aubaine Création",
   "scripts": {
     "dev": "hugo server",
+    "dev:production": "hugo server --environment production --baseURL http://localhost:1313/",
     "build": "hugo --gc --minify"
   },
   "keywords": [],
