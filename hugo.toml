@@ -61,3 +61,7 @@ title = 'Aubaine Création'
     cloud = false
     media_folder = "/static/images/uploads"
     public_folder = "/images/uploads"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
