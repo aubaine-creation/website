@@ -11,7 +11,7 @@ blocks:
       surtitle: ''
       title: Nous sommes
       text: Un duo complémentaire pour transformer vos idées en véritables pépites. On vous accompagne de l’idée à la réalisation, avec un suivi personnalisé et une attention aux détails qui fait la différence.
-    column: 2
+    column: 4
     items:
       - title: Directrice de production
         text: Audrey
@@ -26,6 +26,22 @@ blocks:
         icon: ''
         image:
           src: /images/uploads/Amanda-adjusted.jpg
+          alt: ''
+          isLogo: false
+        cta: null
+      - title: Responsable administratif
+        text: Mochizouille
+        icon: ''
+        image:
+          src: /static/images/uploads/IMG_0349.jpg
+          alt: ''
+          isLogo: false
+        cta: null
+      - title: Responsable comptabilité
+        text: Chaplin
+        icon: ''
+        image:
+          src: /static/images/uploads/PHOTO-2024-08-10-10-16-37 (1).jpg
           alt: ''
           isLogo: false
         cta: null

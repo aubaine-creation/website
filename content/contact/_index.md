@@ -7,30 +7,17 @@ image: null
 hero: null
 blocks:
   - type: paragraph
-    title: Venez prendre un café
-    text: ☕️
-    ctas:
-      - text: info@bluemaxmedia.com
-        url: mailto:info@bluemaxmedia.com
-        lang: ''
-        blank: false
-      - text: +33 06 88 86 76 42
-        url: tel:+330688867642
-        lang: ''
-        blank: false
+    title: Saisissez l'opportunité !
+    text: |-
+      **[contact@aubaine-creation.fr](mailto:contact@aubaine-creation.fr)**
+
+      **[+33 6 37 49 59 12](tel:+33637495912)**
+    ctas: []
+    column: 3
+    items: []
+    layout: inline
     grid: large
-  - type: informations
-    heading:
-      surtitle: ''
-      title: Meet Us
-      text: ''
-    column: 4
-    items:
-      - title: Briançon
-        text: 73 Route de Grenoble 05100 Briançon France
-        icon: ''
-        image: null
-        cta: null
-    background: false
 slug: ''
 ---
+
+![](/static/images/uploads/pexels-maksgelatin-5821029.jpg)

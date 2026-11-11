@@ -1,5 +1,6 @@
 links:
-  - title: Legal mentions
-    url: /legal-mentions/
-  - title: Privacy policy
-    url: /privacy-policy/
+  - title: CGV
+    url: /cgv/
+    blank: false
+    is_highlighted: false
+    links: []

@@ -3,7 +3,8 @@ isIndex: false
 draft: false
 date: 2026-11-10T19:02:00
 weight: ''
-title: Franck Gravure, une marque taillée sur mesure
+title: Franck Gravure
+subtitle: une marque taillée sur mesure
 description: ''
 projects_types:
   - films
@@ -17,19 +18,21 @@ projects_tags:
   - vitrine
   - social-content
 projects_clients:
-  - airbnb
+  - franck-gravure
 image:
   src: /images/uploads/Franck Gravure/Mise en avant projets-1.png
   alt: ''
 hover_video: null
 video_embed:
   platform: youtube
-  id: 75R2it4dOUg
-  shorts: false
-video_embed_2:
-  platform: youtube
   id: HrfUxBL1o9I
   shorts: false
+  poster: ''
+video_embed_2:
+  platform: youtube
+  id: 75R2it4dOUg
+  shorts: false
+  poster: ''
 video_embed_3: null
 video_embed_4: null
 video_embed_5: null
@@ -66,6 +69,7 @@ images:
     credit: ''
     legend: ''
     half: false
+slug: franck-gravure
 ---
 
 ### Services

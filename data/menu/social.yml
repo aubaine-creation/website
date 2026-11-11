@@ -1,16 +1,11 @@
 links:
   - title: Instagram
-    url: ''
+    url: https://www.instagram.com/aubaine_creation/
     blank: true
     is_highlighted: false
     links: []
   - title: LinkedIN
-    url: ''
+    url: https://www.linkedin.com/company/aubaine-creation
     blank: true
-    is_highlighted: false
-    links: []
-  - title: Pinterest
-    url: ''
-    blank: false
     is_highlighted: false
     links: []

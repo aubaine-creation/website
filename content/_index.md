@@ -16,6 +16,7 @@ hero:
     platform: youtube
     id: 2hlCJuwO_SE
     shorts: false
+    poster: ''
 blocks:
   - type: datas
     heading: null
@@ -60,6 +61,7 @@ blocks:
       platform: youtube
       id: 75R2it4dOUg
       shorts: false
+      poster: ''
   - type: editorial
     direction: ltr
     title: Une idée, une envie ou un besoin ?
@@ -71,65 +73,4 @@ blocks:
         blank: false
     media: /images/uploads/destinycalling.mp4
     video_embed: null
-  - type: logos
-    heading:
-      surtitle: ''
-      title: They trust us
-      text: ''
-    column: 5
-    items:
-      - title: Salomon
-        url: ''
-        src: https://ucarecdn.com/95d52371-51d8-4219-9507-8d53a63e77a7/logosalomon.svg
-      - title: Red Bull
-        url: ''
-        src: https://ucarecdn.com/c3e09738-523c-414e-bee8-fbb7f1ed58e3/logoredbull.svg
-      - title: Audi
-        url: ''
-        src: https://ucarecdn.com/a77557be-6b76-44dc-86ed-ca7495322fee/logoaudi.svg
-      - title: Faction
-        url: ''
-        src: https://ucarecdn.com/0c993528-c49d-4d99-939c-78c775114ba8/logofaction.svg
-      - title: Michelin
-        url: ''
-        src: https://ucarecdn.com/090dc570-bb71-4410-b2df-5d6a5a55ce0d/logomichelin.svg
-      - title: Airbnb
-        url: ''
-        src: https://ucarecdn.com/ef99c27e-76e7-45ef-b108-f6f96be93ab3/logoairbnb.svg
-      - title: Montec
-        url: ''
-        src: https://ucarecdn.com/980176e6-3d4d-4b83-9378-76f4cae794f1/logomontec.svg
-      - title: Insta360
-        url: ''
-        src: https://ucarecdn.com/82b7f008-f44a-4826-8f0b-f5d660ecef78/logoinsta360.svg
-      - title: BFGoodrich
-        url: ''
-        src: https://ucarecdn.com/6010095a-b672-4278-b490-9834819e5ebd/logobfgoodrich.svg
-    background: false
-    layout: carousel
-    carousel:
-      params:
-        focus: true
-        autoplay: true
-        arrows: true
-        interval: 2100
-        pagination: false
-        type: loop
-        perMove: 1
-        perPage: 5
-        padding: null
-        gap: null
-      responsive:
-        - breakpoints: '640'
-          params:
-            focus: false
-            autoplay: true
-            arrows: false
-            interval: null
-            pagination: false
-            type: loop
-            perMove: null
-            perPage: 3
-            padding: null
-            gap: null
 ---

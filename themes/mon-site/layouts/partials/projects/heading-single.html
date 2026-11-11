@@ -13,4 +13,7 @@
       {{- partial "func/PrepareHTML.html" . -}}
     </h1>
   {{- end }}
+  {{- with .Params.subtitle }}
+    <h2>{{ partial "func/PrepareHTML.html" . }}</h2>
+  {{- end }}
 </header>

@@ -120,6 +120,7 @@ admin:
         - date
         - weight
         - title_page
+        - subtitle
         - description
         - relation:
             collection: projects_types
@@ -257,6 +258,36 @@ admin:
         - icons
         - title
         - text_markdown
+    video_embed:
+      fields:
+        - video_platform
+        - video_id
+        - is_shorts
+        - poster
+    video_embed_2:
+      fields:
+        - video_platform
+        - video_id
+        - is_shorts
+        - poster
+    video_embed_3:
+      fields:
+        - video_platform
+        - video_id
+        - is_shorts
+        - poster
+    video_embed_4:
+      fields:
+        - video_platform
+        - video_id
+        - is_shorts
+        - poster
+    video_embed_5:
+      fields:
+        - video_platform
+        - video_id
+        - is_shorts
+        - poster
   # Remove shortcodes
   shortcodes:
     enable: false

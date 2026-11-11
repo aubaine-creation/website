@@ -1,20 +1,57 @@
 .block-informations
+    .section-about &
+        .heading .text
+            max-width: 900px
+
+        .items
+            display: grid
+            gap: $grid-gutter-width
+            grid-template-columns: 1fr
+            margin-inline: auto
+            max-width: 80rem
+
+            > *
+                width: 100%
+
+            @include media-breakpoint-up(md)
+                grid-template-columns: repeat(2, minmax(0, 1fr))
+
+        .item
+            display: flex
+            flex-direction: column
+            width: 100%
+
+            .content
+                order: 2
+                text-align: left
+
+            .media.media-image
+                margin-inline: 0
+                max-width: 80rem
+                order: 1
+                width: 100%
+
     &.layout-inline > .heading > .container
         @include media-breakpoint-up(md)
-            align-items: center
+            align-items: flex-start
             display: grid
             gap: $grid-gutter-width
             grid-template-columns: 1fr 1fr
+
     .items
         justify-content: flex-start
+
     .item
         --bs-card-bg: transparent
         --bs-card-spacer-x: 0
+
         .media
             --bs-aspect-ratio: 75%
             border-radius: $border-radius
             padding: 0
+
         .name
             @include surtitle
+
     .name + p
         @include title
