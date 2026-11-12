@@ -1,34 +1,27 @@
-# BlueMax Media
+# Aubaine Création
 
-> BlueMax Media is a creative audiovisual production company founded in 2015, specializing in action sports filmmaking. We create films, commercials, documentaries, and content for bold brands and elite athletes across mountain sports, motorsports, and extreme disciplines.
+> Aubaine Création est un studio créatif fondé par Amanda et Audrey. Basé à Paris, le studio accompagne entreprises, artisans et particuliers dans la création de leur identité visuelle, de supports de communication et d'expériences web et vidéo.
 
-BlueMax Media operates at the intersection of sport and storytelling. Our crews are athletes themselves — riders, mountaineers, explorers, runners — which gives us an authentic edge in capturing real performance in demanding conditions.
+## À propos
 
-## Key pages
-
-- [Home](https://www.bluemaxmedia.com/): Overview of our work and expertise
-- [About](https://www.bluemaxmedia.com/about/): Our story, founders, and team
-- [Works](https://www.bluemaxmedia.com/works/): Full portfolio of productions
-- [Contact](https://www.bluemaxmedia.com/contact/): Get in touch
+Amanda est directrice artistique et Audrey directrice de production. Elles accompagnent les projets de l'idée à la réalisation, avec un suivi personnalisé et une attention portée aux détails.
 
 ## Services
 
-- [Films](https://www.bluemaxmedia.com/works/films/): Short films and feature productions
-- [Commercials](https://www.bluemaxmedia.com/works/commercial/): Brand advertising content
-- [Documentaries](https://www.bluemaxmedia.com/works/documentaries/): Long-form documentary projects
-- [Content](https://www.bluemaxmedia.com/works/content/): Social and digital content
+- Identité de marque : création de logo, déclinaisons et univers graphique et éditorial.
+- Design print et digital : flyers, stickers, kakémonos, dossiers de presse, newsletters, publications pour les réseaux sociaux, infographies et illustrations.
+- Web et SEO : création, refonte et mise à jour de sites internet, optimisation du référencement naturel.
+- Photographie et vidéo : packshots, portraits, photos de lieux, tournage et montage de clips, teasers, interviews et vidéos promotionnelles.
 
-## Notable clients
+## Pages
 
-Salomon, Red Bull, Audi, Faction Skis, Michelin, Airbnb, Montec, Insta360, BFGoodrich, The North Face, Nespresso, Prada, Puma, Renault, Skoda, TF1, Yamaha, Black Crows, Mountain Dew, Volvic
+- [Accueil](https://aubaine-creation.github.io/website/)
+- [À propos](https://aubaine-creation.github.io/website/about/)
+- [Projets](https://aubaine-creation.github.io/website/works/)
+- [Contact](https://aubaine-creation.github.io/website/contact/)
+- [Conditions générales de vente](https://aubaine-creation.github.io/website/cgv/)
 
-## Athletes featured
+## Contact
 
-Candide Thovex, Alex Hall, Jesper Tjäder, Sarah Hoefflin, Victor de le Rue, Megan Oldham, Pierre Vaultier, Coline Ballet-Baz, Elisabeth Gerritzen, Sam Anthamatten, Matěj Švancer, Adrian Mattern, Jules Charraud, Kadi Gomis
-
-## Team
-
-- Nicolas Roubin — Business Manager & CGO
-- Jean-Clément Lelard — Business Manager & Director
-- Julien Eustache — Executive Producer & Director
-- Etienne Mérel — Executive Producer & Director
+- E-mail : [contact@aubaine-creation.fr](mailto:contact@aubaine-creation.fr)
+- Téléphone : [+33 6 37 49 59 12](tel:+33637495912)
