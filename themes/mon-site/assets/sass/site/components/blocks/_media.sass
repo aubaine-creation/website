@@ -1,0 +1,56 @@
+.block-media
+  .media-items
+    display: grid
+    gap: $grid-gutter-width
+    grid-template-columns: repeat(12, minmax(0, 1fr))
+
+  .media-item
+    margin: 0
+
+    img
+      display: block
+      height: auto
+      width: 100%
+
+    &.size-quarter
+      grid-column: span 3
+    &.size-third
+      grid-column: span 4
+    &.size-half
+      grid-column: span 6
+    &.size-two-thirds
+      grid-column: span 8
+    &.size-three-quarters
+      grid-column: span 9
+    &.size-full
+      grid-column: 1 / -1
+
+  &.layout-stacked
+    .media-items
+      align-items: flex-start
+      display: flex
+      flex-direction: column
+
+    .media-item
+      grid-column: auto
+
+      &.size-quarter
+        width: 25%
+      &.size-third
+        width: 33.333%
+      &.size-half
+        width: 50%
+      &.size-two-thirds
+        width: 66.667%
+      &.size-three-quarters
+        width: 75%
+      &.size-full
+        width: 100%
+
+  @include media-breakpoint-down(md)
+    .media-items
+      grid-template-columns: 1fr
+
+    .media-item
+      grid-column: 1 / -1
+      width: 100%

@@ -4,6 +4,8 @@ draft: false
 date: 2026-11-11T15:42:00
 weight: null
 title: Fiona Sanjabi
+aliases:
+  - /works/2026-fiona-sanjabi/
 subtitle: Un songe immortalisé
 description: ''
 projects_types:
@@ -11,9 +13,9 @@ projects_types:
 projects_tags:
   - event
 projects_clients:
-  - audi
+  - fiona-sanjabi
 image:
-  src: /static/images/uploads/Mise en avant projets-8.png
+  src: /images/uploads/Mise en avant projets-8.png
   alt: ''
 hover_video: null
 video_embed:

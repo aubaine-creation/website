@@ -1,13 +1,13 @@
 _merge: deep
 page:
-  projects: /works/:year-:slug
+  projects: /projets/:year-:slug
 section:
-  projects: /works/
+  projects: /projets/
 term:
-  projects_clients: /works/clients/:slug
-  projects_tags: /works/tags/:slug
-  projects_types: /works/:slug
+  projects_clients: /projets/clients/:slug
+  projects_tags: /projets/tags/:slug
+  projects_types: /projets/types/:slug
 taxonomy:
-  projects_clients: /works/clients/
-  projects_tags: /works/tags/
-  projects_types: /works/types/
+  projects_clients: /projets/clients/
+  projects_tags: /projets/tags/
+  projects_types: /projets/types/

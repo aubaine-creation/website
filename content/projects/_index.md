@@ -1,5 +1,7 @@
 ---
 isIndex: true
-title: Projects
-url: /works/
+title: Projets
+url: /projets/
+aliases:
+  - /works/
 ---

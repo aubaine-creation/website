@@ -1,4 +1,4 @@
-defaultContentLanguage: en
+defaultContentLanguage: fr
 build:
   buildStats:
     disableClasses: false

@@ -4,6 +4,8 @@ draft: false
 date: 2024-08-05T16:29:00
 weight: null
 title: Maîtrise des crises
+aliases:
+  - /works/2024-maîtrise-des-crises/
 subtitle: Une présentation maîtrisée
 description: ''
 projects_types:
@@ -13,7 +15,7 @@ projects_tags:
 projects_clients:
   - maitrise-des-crises
 image:
-  src: /images/uploads/Maitrise Des Crises/Mise en avant projets-3.png
+  src: /images/uploads/Mise en avant projets-3.png
   alt: ''
 hover_video: null
 video_embed:

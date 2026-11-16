@@ -4,6 +4,8 @@ draft: false
 date: 2026-11-11T15:03:00
 weight: null
 title: Alexis Mabille
+aliases:
+  - /works/2026-alexis-mabille/
 subtitle: Strike a pose avec Aubaine
 description: ''
 projects_types:
@@ -11,9 +13,9 @@ projects_types:
 projects_tags:
   - event
 projects_clients:
-  - cupra
+  - alexis-mabille
 image:
-  src: /static/images/uploads/Mise en avant projets-10.png
+  src: /images/uploads/Mise en avant projets-10.png
   alt: ''
 hover_video: null
 video_embed:

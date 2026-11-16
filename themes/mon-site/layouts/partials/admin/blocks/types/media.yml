@@ -1,0 +1,10 @@
+{{- $fields := partial "admin/func/GetFields.html" (dict "block" . "fields" (slice "layout" "items")) -}}
+
+{{- $args := dict
+  "label" (i18n "admin.blocks.media.label")
+  "name" "media"
+  "collapsed" false
+  "fields" $fields
+  -}}
+
+{{ partial "admin/widgets/object.js" $args }}

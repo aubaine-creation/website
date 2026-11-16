@@ -23,7 +23,11 @@ module.exports = {
             'hide',
             'fade',
             'iframe',
+            'block-media',
+            'media-items',
+            'media-item',
             /-backdrop$/,
+            /^size-(quarter|third|half|two-thirds|three-quarters|full)$/,
             /^is-/,
             /^splide_/
           ],

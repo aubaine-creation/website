@@ -1,6 +1,20 @@
 admin:
+  blocks:
+    media:
+      label: Galerie d’images
   fields:
     layout:
       options:
         inline: Côte à côte
         stacked: Empilé
+    size:
+      label: Largeur de l’image
+      options:
+        quarter: 25 %
+        third: 33 %
+        half: 50 %
+        two_thirds: 66 %
+        three_quarters: 75 %
+        full: Pleine largeur
+projects:
+  portfolio: Réalisations

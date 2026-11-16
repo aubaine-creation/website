@@ -1,10 +1,22 @@
 admin:
+  blocks:
+    media:
+      label: Image gallery
   collections:
     projects_clients:
       label: 
         one: Client
         other: Clients
   fields:
+    size:
+      label: Image width
+      options:
+        quarter: 25%
+        third: 33%
+        half: 50%
+        two_thirds: 66%
+        three_quarters: 75%
+        full: Full width
     images:
       label: 
         one: Image

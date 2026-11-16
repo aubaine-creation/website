@@ -1,7 +1,16 @@
 links:
-  - title: Works
-    url: /works/
-  - title: About
-    url: /about/
+  - title: Projets
+    url: /projets/
+    blank: false
+    is_highlighted: false
+    links: []
+  - title: À propos
+    url: /a-propos/
+    blank: false
+    is_highlighted: false
+    links: []
   - title: Contact
     url: /contact/
+    blank: false
+    is_highlighted: false
+    links: []

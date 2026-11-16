@@ -8,7 +8,7 @@ hero:
   title: Saisissez l'opportunité
   ctas:
     - text: Nos projets
-      url: /works/
+      url: /projets/
       lang: ''
       blank: false
   image: null
@@ -53,7 +53,7 @@ blocks:
     text: Que vous soyez une entreprise en quête d'une identité visuelle qui vous distingue, un artisan souhaitant valoriser son savoir-faire ou un particulier avec une vision unique, nous sommes là pour **concevoir une création qui vous ressemble.**
     ctas:
       - text: Découvrez nos services
-        url: /about/
+        url: /a-propos/
         lang: ''
         blank: false
     media: ''

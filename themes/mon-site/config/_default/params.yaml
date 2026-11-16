@@ -176,6 +176,7 @@ admin:
       - selected
       - video
       - text
+      - media
     
     editorial:
       notes: false
@@ -240,6 +241,30 @@ admin:
         - heading
         - video_embed
         - grid
+
+    media:
+      fields:
+        - select:
+            name: layout
+            options:
+              - inline
+              - stacked
+            default: inline
+        - items:
+            name: media
+            fields:
+              - image_src
+              - image_alt
+              - select:
+                  name: size
+                  options:
+                    - quarter
+                    - third
+                    - half
+                    - two-thirds
+                    - three-quarters
+                    - full
+                  default: half
 
   # fields
   fields:

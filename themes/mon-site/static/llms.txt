@@ -16,8 +16,8 @@ Amanda est directrice artistique et Audrey directrice de production. Elles accom
 ## Pages
 
 - [Accueil](https://aubaine-creation.github.io/website/)
-- [À propos](https://aubaine-creation.github.io/website/about/)
-- [Projets](https://aubaine-creation.github.io/website/works/)
+- [À propos](https://aubaine-creation.github.io/website/a-propos/)
+- [Projets](https://aubaine-creation.github.io/website/projets/)
 - [Contact](https://aubaine-creation.github.io/website/contact/)
 - [Conditions générales de vente](https://aubaine-creation.github.io/website/cgv/)
 

@@ -1,13 +1,10 @@
 .block-informations
-    .section-about &
-        .heading .text
-            max-width: 900px
-
+    .section-a-propos &
         .items
             display: grid
             gap: $grid-gutter-width
             grid-template-columns: 1fr
-            margin-inline: auto
+            margin-inline: 0
             max-width: 80rem
 
             > *
@@ -49,6 +46,9 @@
             --bs-aspect-ratio: 75%
             border-radius: $border-radius
             padding: 0
+
+        img
+            object-position : center top
 
         .name
             @include surtitle

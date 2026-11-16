@@ -4,6 +4,8 @@ draft: false
 date: 2026-11-10T19:02:00
 weight: ''
 title: Franck Gravure
+aliases:
+  - /works/2026-franck-gravure/
 subtitle: une marque taillée sur mesure
 description: ''
 projects_types:
@@ -20,7 +22,7 @@ projects_tags:
 projects_clients:
   - franck-gravure
 image:
-  src: /images/uploads/Franck Gravure/Mise en avant projets-1.png
+  src: /images/uploads/Mise en avant projets-1.png
   alt: ''
 hover_video: null
 video_embed:
