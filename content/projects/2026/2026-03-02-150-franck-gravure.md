@@ -1,11 +1,11 @@
 ---
+aliases:
+  - /works/2026-franck-gravure/
 isIndex: false
 draft: false
 date: 2026-11-10T19:02:00
-weight: ''
+weight: 20
 title: Franck Gravure
-aliases:
-  - /works/2026-franck-gravure/
 subtitle: une marque taillée sur mesure
 description: ''
 projects_types:

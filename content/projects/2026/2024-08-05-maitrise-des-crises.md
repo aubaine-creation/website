@@ -1,11 +1,11 @@
 ---
+aliases:
+  - /works/2024-maîtrise-des-crises/
 isIndex: false
 draft: false
 date: 2024-08-05T16:29:00
-weight: null
+weight: 30
 title: Maîtrise des crises
-aliases:
-  - /works/2024-maîtrise-des-crises/
 subtitle: Une présentation maîtrisée
 description: ''
 projects_types:

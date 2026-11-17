@@ -1,11 +1,11 @@
 ---
+aliases:
+  - /works/2026-alexis-mabille/
 isIndex: false
 draft: false
 date: 2026-11-11T15:03:00
-weight: null
+weight: 40
 title: Alexis Mabille
-aliases:
-  - /works/2026-alexis-mabille/
 subtitle: Strike a pose avec Aubaine
 description: ''
 projects_types:

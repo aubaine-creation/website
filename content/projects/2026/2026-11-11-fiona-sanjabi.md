@@ -1,11 +1,11 @@
 ---
+aliases:
+  - /works/2026-fiona-sanjabi/
 isIndex: false
 draft: false
 date: 2026-11-11T15:42:00
-weight: null
+weight: 70
 title: Fiona Sanjabi
-aliases:
-  - /works/2026-fiona-sanjabi/
 subtitle: Un songe immortalisé
 description: ''
 projects_types:
