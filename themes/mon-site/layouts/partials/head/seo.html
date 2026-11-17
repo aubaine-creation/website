@@ -1,0 +1,123 @@
+{{- $staticDir := "static" -}}
+{{- $staticDirImages := (printf "%s/assets/images" $staticDir) -}}
+{{- $lang := .Site.Language.Lang }}
+{{- $dataSeo := .Site.Data.seo }}
+
+{{/* TITLE */}}
+{{- $seoTitle := site.Title -}}
+{{- if hugo.IsMultilingual -}}
+  {{- with index $dataSeo $lang -}}
+    {{- with .title -}}
+      {{- $seoTitle = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- with $dataSeo.title -}}
+    {{- $seoTitle = . -}}
+  {{- else -}}
+    {{- with index $dataSeo $lang -}}
+      {{- with .title -}}
+        {{- $seoTitle = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $seoTitle = partial "func/PrepareData.html" $seoTitle -}}
+{{- $title := partial "func/PrepareData.html" (partial "func/GetRealTitle.html" .) -}}
+{{- with .Params.seo.title -}}
+  {{- $title = partial "func/PrepareData.html" . -}}
+{{- end -}}
+{{- if not .IsHome -}}
+  {{- $seoTitle = printf "%s | %s" $title $seoTitle -}}
+{{- end -}}
+
+{{/* DESCRIPTION */}}
+{{- $seoDescription := "" -}}
+{{- if hugo.IsMultilingual -}}
+  {{- with index $dataSeo $lang -}}
+    {{- with .description -}}
+      {{- $seoDescription = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- with $dataSeo.description -}}
+    {{- $seoDescription = . -}}
+  {{- end -}}
+{{- end -}}
+{{- with .Description -}}
+  {{- $seoDescription = . -}}
+{{- end -}}
+{{- with .Params.seo.description -}}
+  {{- $seoDescription = . -}}
+{{- end -}}
+{{- $seoDescription = partial "func/PrepareData.html" $seoDescription -}}
+
+{{/* IMAGE */}}
+{{- $seoImageSrc := "" -}}
+{{- if site.Params.share -}}
+  {{- $seoImageSrc = site.Params.share -}}
+{{- else if os.FileExists (printf "%s/share.png" $staticDirImages) -}}
+  {{- $seoImageSrc = "/assets/images/share.png" -}}
+{{- else if os.FileExists (printf "%s/share.jpg" $staticDirImages) -}}
+  {{- $seoImageSrc = "/assets/images/share.jpg" -}}
+{{- end -}}
+{{- if hugo.IsMultilingual -}}
+  {{- with index $dataSeo $lang -}}
+    {{- with .image -}}
+      {{- $seoImageSrc = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- with $dataSeo.image -}}
+    {{- $seoImageSrc = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not .IsHome -}}
+  {{- with .Params.seo -}}
+    {{- with .image -}}
+      {{- $seoImageSrc = . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- with .Params.image -}}
+      {{- with .src -}}
+        {{- $seoImageSrc = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $seoImageSize := site.Params.seo.image.size -}}
+{{- $seoImageCrop := site.Params.seo.image.crop -}}
+{{- $seoImage := "" -}}
+{{- $seoImageWidth := false -}}
+{{- $seoImageHeight := false -}}
+{{- with $seoImageSrc -}}
+  {{- $seoImage = . -}}
+  {{- $seoImageParams := partial "func/GetImageParams.html" (dict "file" . "desktop_size" $seoImageSize "crop" $seoImageCrop) -}}
+  {{- with $seoImageParams -}}
+    {{- with .image_desktop -}}
+      {{- $seoImage = . -}}
+      {{- $seoImageWidth = $seoImageParams.image_width -}}
+      {{- $seoImageHeight = $seoImageParams.image_height -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not (or (hasPrefix $seoImage "http") (hasPrefix $seoImage "//")) -}}
+    {{- $seoImage = $seoImage | absURL -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* PERMALINK */}}
+{{- $seoUrl := .Permalink -}}
+
+{{/* TYPE */}}
+{{- $seoType := cond .IsPage "article" "website" -}}
+
+{{/* DATE */}}
+{{- $seoDate := cond .IsPage .Date false -}}
+
+<title>{{ $seoTitle }}</title>
+<meta name="description" content="{{ $seoDescription }}">
+
+{{- $seo := dict "title" $seoTitle "description" $seoDescription "url" $seoUrl "image" $seoImage "type" $seoType "date" $seoDate }}
+{{- partial "head/opengraph.html" $seo -}}
+{{- partial "head/twitter.html" $seo -}}

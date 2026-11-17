@@ -1,0 +1,9 @@
+{{- $faviconDir := "assets/images/favicons" -}}
+{{- $colorPrimary := .Site.Data.seo.color | default "#000000" -}}
+
+<link rel="apple-touch-icon" sizes="180x180" href="{{ printf "%s/favicon-180x180.jpg" $faviconDir | relURL }}">
+<link rel="icon" type="image/jpeg" sizes="32x32" href="{{ printf "%s/favicon-32x32.jpg" $faviconDir | relURL }}">
+<link rel="icon" type="image/jpeg" sizes="192x192" href="{{ printf "%s/favicon-192x192.jpg" $faviconDir | relURL }}">
+<link rel="icon" type="image/jpeg" sizes="270x270" href="{{ printf "%s/favicon-270x270.jpg" $faviconDir | relURL }}">
+<meta name="msapplication-TileColor" content="{{ $colorPrimary }}">
+<meta name="theme-color" content="{{ $colorPrimary }}">

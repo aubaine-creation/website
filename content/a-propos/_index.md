@@ -43,7 +43,7 @@ blocks:
         text: Chaplin
         icon: ''
         image:
-          src: /images/uploads/Chaplin.jpg
+          src: /static/images/uploads/chaplin.jpg
           alt: ''
           isLogo: false
         cta: null
