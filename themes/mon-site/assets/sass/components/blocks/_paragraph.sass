@@ -34,6 +34,24 @@
       &.columns-4
         grid-template-columns: repeat(4, 1fr)
 
+  &:has(.items)
+    h2
+      grid-column: 1 / -1
+      margin-inline: 0
+      max-width: 900px
+      width: 100%
+
+    .items
+      margin-inline: 0
+      max-width: 900px
+
+  .section-a-propos &
+    &:has(.items)
+      h2,
+      .items
+        margin-inline: auto
+        max-width: none
+
   .item
     .icon
       margin-bottom: 0.75rem

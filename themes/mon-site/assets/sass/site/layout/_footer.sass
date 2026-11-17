@@ -1,5 +1,6 @@
 footer[role="contentinfo"]
     --bs-body-font-size: .625rem
+    text-align: center
     p
         font-size: var(--bs-body-font-size)
     .description
@@ -17,6 +18,8 @@ footer[role="contentinfo"]
         display: none
         font-size: .75rem
 
+    .nav
+        justify-content: center
 
     @include media-breakpoint-up(md)
         .container,
@@ -25,10 +28,12 @@ footer[role="contentinfo"]
             align-items: center
         .container
             display: flex
-            gap: 4rem
+            flex-direction: column
+            gap: 2rem
         .top
             display: flex
             gap: 4rem
+            justify-content: center
         .information
             display: flex
             gap: 2rem
@@ -37,7 +42,8 @@ footer[role="contentinfo"]
         .nav
             margin: 0
         .bottom
-            flex: 1
+            flex: none
             flex-direction: row-reverse
-            justify-content: space-between
+            gap: 2rem
+            justify-content: center
             padding-top: 0

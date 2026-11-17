@@ -1,11 +1,22 @@
+.block-informations.layout-stacked
+    .heading h2,
+    .heading .text
+        margin-inline: auto
+        max-width: 1000px
+        width: 100%
+
 .block-informations
     .section-a-propos &
+        .heading h2,
+        .heading .text
+            max-width: none
+
         .items
             display: grid
             gap: $grid-gutter-width
             grid-template-columns: 1fr
-            margin-inline: 0
-            max-width: 80rem
+            margin-inline: auto
+            max-width: none
 
             > *
                 width: 100%
@@ -26,7 +37,7 @@
                 margin-inline: 0
                 max-width: 80rem
                 order: 1
-                width: 100%
+                width: 80%
 
     &.layout-inline > .heading > .container
         @include media-breakpoint-up(md)
@@ -55,3 +66,4 @@
 
     .name + p
         @include title
+        

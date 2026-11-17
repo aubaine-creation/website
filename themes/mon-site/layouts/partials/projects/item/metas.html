@@ -1,9 +1,1 @@
-{{- with .GetTerms "projects_clients" }}
-  {{- $titles := slice }}
-  {{- range . }}
-    {{- $titles = $titles | append .Title }}
-  {{- end }}
-  <div class="metas">
-    <p>{{ delimit $titles ", " }}</p>
-  </div>
-{{- end }}
+{{- /* The card title already names the project, so omit duplicate client metadata. */ -}}

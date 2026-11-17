@@ -10,8 +10,30 @@
         .container
             height: 90vh
             height: 90svh
+            padding-left: $gutter-mobile
+            padding-right: $gutter-mobile
+            @include media-breakpoint-up(md)
+                padding-left: 3rem
+                padding-right: 3rem
+            @include media-breakpoint-up(lg)
+                padding-left: 6rem
+                padding-right: 6rem
+            @include media-breakpoint-up(xxl)
+                padding-left: 9rem
+                padding-right: 9rem
         
         h1
             font-size: clamp(2rem, 7vw, 6rem)
             color: #AA77F2
             // @include font-size($home-hero-h1-font-size)
+
+    .block-editorial
+        @include media-breakpoint-up(md)
+            .media
+                margin-left: 0
+                margin-right: 0
+                width: 45%
+            .media--embed
+                width: 45%
+            .content
+                width: 55%

@@ -1,9 +1,9 @@
 ---
+aliases:
+  - /about/
 isPage: true
 draft: false
 title: À propos
-aliases:
-  - /about/
 description: ''
 image: null
 hero: null
@@ -80,9 +80,6 @@ blocks:
 
           _→ Capturer l’attention avec des productions uniques et engageantes, adaptée à vos projets et vos plateformes._
     layout: inline
-    grid: large
-  - type: media
-    items: []
-    layout: inline
+    grid: small
 slug: ''
 ---
