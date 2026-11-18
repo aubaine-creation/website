@@ -1,4 +1,20 @@
 header[role="banner"]
+    background-color: transparent
+    left: 0
+    position: fixed
+    right: 0
+    top: 0
+    transition: background-color .3s ease
+    z-index: 1030
+
+    &.is-scrolled
+        background-color: $black
+    &.is-sticky
+        position: fixed
+    @media (hover: hover) and (pointer: fine)
+        html:not(.is-dropdown-menu-open).is-scrolling-down &
+            &:not(:hover)
+                top: 0
     nav
         --bs-navbar-padding-y: 1rem
         .container

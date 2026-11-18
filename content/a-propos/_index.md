@@ -43,7 +43,7 @@ blocks:
         text: Chaplin
         icon: ''
         image:
-          src: /static/images/uploads/chaplin.jpg
+          src: /static/images/uploads/Chaplin.jpg
           alt: ''
           isLogo: false
         cta: null
@@ -53,7 +53,7 @@ blocks:
     title: Nous proposons
     text: ''
     ctas: []
-    column: 4
+    column: 2
     items:
       - title: Identité
         text: |-
@@ -61,7 +61,7 @@ blocks:
           - **Développement** de l’univers graphique et éditorial.  
 
           _→ Créer une cohérence visuelle et narrative pour que votre marque soit identifiable en un coup d’œil._
-      - title: Design (print & digital)
+      - title: Design
         text: |-
           - **Print & Event :** flyers, stickers, kakémonos, dossiers de presse 
           - **Digital & Contenu :** newsletters, posts réseaux sociaux, infographies, illustrations 

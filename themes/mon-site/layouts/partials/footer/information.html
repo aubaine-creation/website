@@ -1,0 +1,22 @@
+{{- $datas := .Site.Data.footer -}}
+{{- if hugo.IsMultilingual -}}
+  {{- with index $datas .Site.Language.Lang -}}
+    {{- $datas = . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $datas -}}
+  {{- if or .title .text -}}
+    <div class="information">
+      {{- with .title -}}
+      <p class="footer-title">{{- partial "func/PrepareHTML.html" . -}}</p>
+      {{- end -}}
+      {{- with .text -}}
+        {{- $phone := . -}}
+        {{- $phoneURL := replaceRE "[^0-9+]" "" $phone -}}
+        {{- $phoneURL = replaceRE "^\\+330" "+33" $phoneURL -}}
+        {{- partial "commons/cta" (dict "url" (printf "tel:%s" $phoneURL) "text" $phone) -}}
+      {{- end -}}
+      {{- partial "commons/cta" .cta -}}
+    </div>
+  {{- end -}}
+{{- end -}}

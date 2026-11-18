@@ -47,10 +47,14 @@
 
   .section-a-propos &
     &:has(.items)
-      h2,
-      .items
+      h2
         margin-inline: auto
         max-width: none
+      .items
+        margin-inline: auto
+        max-width: 1200px
+        column-gap: clamp(4rem, 10vw, 10rem)
+        row-gap: 4rem
 
   .item
     .icon

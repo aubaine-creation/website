@@ -1,0 +1,16 @@
+links:
+  - title: Projets
+    url: /projets/
+    blank: false
+    is_highlighted: false
+    links: []
+  - title: À propos
+    url: /a-propos/
+    blank: false
+    is_highlighted: false
+    links: []
+  - title: CGV
+    url: /cgv/
+    blank: false
+    is_highlighted: false
+    links: []
