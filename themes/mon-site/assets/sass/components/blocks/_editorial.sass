@@ -82,3 +82,22 @@
         .media--embed
             aspect-ratio: auto
             width: calc(50% - #{$grid-gutter-width})
+
+.section-contact
+    .block-editorial
+        .container
+            gap: 4rem
+            .content
+                .cta
+                    display: grid
+                    justify-items: start
+        margin-inline: 0
+        max-width: 100%
+        @include media-breakpoint-up(md)
+            .media
+                margin-left: 0
+                margin-right: 0
+                width: 30%
+            .content
+                width: 50%
+    
