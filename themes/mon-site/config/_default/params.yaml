@@ -23,7 +23,7 @@ image:
       mobile: "406x721"
 projects:
   thumbnail:
-    desktop: "416x312"
+    desktop: "832x624"
     mobile: "315x236"
   images:
     desktop: "x402"

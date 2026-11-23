@@ -15,7 +15,7 @@ projects_tags:
 projects_clients:
   - maitrise-des-crises
 image:
-  src: /images/uploads/Mise en avant projets-3.png
+  src: /static/images/uploads/Mise en avant projets-mdc.jpeg
   alt: ''
 hover_video: null
 video_embed:

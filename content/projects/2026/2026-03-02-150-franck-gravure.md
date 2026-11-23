@@ -22,7 +22,7 @@ projects_tags:
 projects_clients:
   - franck-gravure
 image:
-  src: /images/uploads/Mise en avant projets-1.png
+  src: /static/images/uploads/Mise en avant projets-fg.jpeg
   alt: ''
 hover_video: null
 video_embed:

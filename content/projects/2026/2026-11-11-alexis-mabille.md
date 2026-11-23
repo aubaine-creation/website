@@ -15,7 +15,7 @@ projects_tags:
 projects_clients:
   - alexis-mabille
 image:
-  src: /images/uploads/Mise en avant projets-10.png
+  src: /static/images/uploads/Mise en avant projets-am.jpeg
   alt: ''
 hover_video: null
 video_embed:

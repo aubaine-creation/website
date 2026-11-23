@@ -15,7 +15,7 @@ projects_tags:
 projects_clients:
   - fiona-sanjabi
 image:
-  src: /images/uploads/Mise en avant projets-8.png
+  src: /static/images/uploads/Mise en avant projets-fs.jpeg
   alt: ''
 hover_video: null
 video_embed:
@@ -38,4 +38,4 @@ Production d’une vidéo promotionnelle.
 
 ### Contexte
 
-Fiona Sanjabi est une artiste franco-iranienne-italienne. L’artiste s’est produite au Théatre Marigny à Paris en mars 2026 et a fait appel à Aubaine afin de capturer ce rêve éveillé.
+[Fiona Sanjabi ](https://youtube.com/@fiona.sanjabi?si=HB7sbjHuUWsieBAH)est une artiste franco-iranienne-italienne. L’artiste s’est produite au Théatre Marigny à Paris en mars 2026 et a fait appel à Aubaine afin de capturer ce rêve éveillé.
