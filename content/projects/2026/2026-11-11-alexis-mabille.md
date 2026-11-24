@@ -38,7 +38,7 @@ Production d’une vidéo promotionnelle
 
 ### Contexte
 
-La collection d’Alexis Mabille [Haute Couture Spring/Summer 2026](https://alexismabille.com/haute-couture/spring-summer-2026/) présentée en janvier 2026 à Paris a marqué les esprits en remplaçant le défilé physique traditionnel par une expérience entièrement générée par intelligence artificielle et outils numériques. 
+La collection d’Alexis Mabille {{< newtabref href="https://alexismabille.com/haute-couture/spring-summer-2026/" title="Haute Couture Spring/Summer 2026" >}} présentée en janvier 2026 à Paris a marqué les esprits en remplaçant le défilé physique traditionnel par une expérience entièrement générée par intelligence artificielle et outils numériques. 
 
 ### Enjeux
 

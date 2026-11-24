@@ -38,7 +38,7 @@ Production d’une vidéo promotionnelle
 
 ### Contexte
 
-[Maîtrise des Crises](https://www.maitrisedescrises.com/) est un service français de veille et d’alerte sur les risques majeurs (cyber, géopolitiques, climatiques) pour les organisations. Vincent Balouet a sollicité Aubaine afin de produire une vidéo de présentation de ses services à destination de son site internet et des réseaux sociaux. 
+{{< newtabref href="https://www.maitrisedescrises.com/" title="Maîtrise des Crises" >}} est un service français de veille et d’alerte sur les risques majeurs (cyber, géopolitiques, climatiques) pour les organisations. Vincent Balouet a sollicité Aubaine afin de produire une vidéo de présentation de ses services à destination de son site internet et des réseaux sociaux. 
 
 ### Enjeux
 

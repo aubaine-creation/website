@@ -38,4 +38,4 @@ Production d’une vidéo promotionnelle.
 
 ### Contexte
 
-[Fiona Sanjabi ](https://youtube.com/@fiona.sanjabi?si=HB7sbjHuUWsieBAH)est une artiste franco-iranienne-italienne. L’artiste s’est produite au Théatre Marigny à Paris en mars 2026 et a fait appel à Aubaine afin de capturer ce rêve éveillé.
+{{< newtabref href="https://youtube.com/@fiona.sanjabi" title="Fiona Sanjabi" >}} est une artiste franco-iranienne-italienne. L’artiste s’est produite au Théatre Marigny à Paris en mars 2026 et a fait appel à Aubaine afin de capturer ce rêve éveillé.

@@ -90,7 +90,7 @@ Franck Gravure, c’est l’alliance entre un savoir-faire artisanal et la maît
 
 - Un logo épuré : **625**, en police moderne, représente le numéro de blouse de Franck lorsqu’il était étudiant à l’école Boulle. **Gravure**, écrit dans une police personnalisée évoquant la taille directe.
 
-- Un site mêlant tradition et modernité : une palette de couleur très simple, majoritairement du noir & blanc mettant en valeur l’artisanat intemporel. Des animations modernes et un menu intuitif pour retrouver facilement les services et travaux de Franck. Un discours clair et précis afin de valoriser l’expertise et savoir faire de Franck → [franck-gravure.fr](http://franck-gravure.fr/)
+- Un site mêlant tradition et modernité : une palette de couleur très simple, majoritairement du noir & blanc mettant en valeur l’artisanat intemporel. Des animations modernes et un menu intuitif pour retrouver facilement les services et travaux de Franck. Un discours clair et précis afin de valoriser l’expertise et le savoir faire de Franck → {{< newtabref href="https://franck-gravure.fr/" title="franck-gravure.fr" >}}
 
 - Une vidéo promotionnelle pour en apprendre plus sur Franck et découvrir les coulisses de son atelier.
 

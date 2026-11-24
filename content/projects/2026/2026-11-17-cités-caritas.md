@@ -37,7 +37,7 @@ Conception et tournage d’une vidéo en caméra libre, montage, animations de t
 
 ### Contexte
 
-[Cités Caritas](https://www.cites-caritas.fr/) accompagne au quotidien des personnes en situation de fragilité. À l’occasion de sa semaine de mobilisation du 12 au 17 octobre, l’association a confié à Aubaine Création une mission : mettre en lumière celles et ceux qui font vivre la solidarité, souvent dans l’ombre, et alerter sur la situation des associations.
+{{< newtabref href="https://www.cites-caritas.fr" title="Cités Caritas" >}} accompagne au quotidien des personnes en situation de fragilité. À l’occasion de sa semaine de mobilisation du 12 au 17 octobre, l’association a confié à Aubaine Création une mission : mettre en lumière celles et ceux qui font vivre la solidarité, souvent dans l’ombre, et alerter sur la situation des associations.
 
 ### Enjeux
 
