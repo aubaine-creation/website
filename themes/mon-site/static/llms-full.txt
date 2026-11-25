@@ -35,11 +35,11 @@ Photographies sur mesure (produits, portraits, lieux et immobilier), tournage et
 
 ## Pages du site
 
-- [Accueil](https://aubaine-creation.github.io/website/)
-- [À propos](https://aubaine-creation.github.io/website/a-propos/)
-- [Projets](https://aubaine-creation.github.io/website/projets/)
-- [Contact](https://aubaine-creation.github.io/website/contact/)
-- [Conditions générales de vente](https://aubaine-creation.github.io/website/cgv/)
+- [Accueil](https://aubaine-creation.github.io/)
+- [À propos](https://aubaine-creation.github.io/a-propos/)
+- [Projets](https://aubaine-creation.github.io/projets/)
+- [Contact](https://aubaine-creation.github.io/contact/)
+- [Conditions générales de vente](https://aubaine-creation.github.io/cgv/)
 
 ## Contact
 
